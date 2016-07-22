@@ -1,0 +1,32 @@
+/* CSS Document */
+nav ul
+ {
+margin:0;
+padding:0;
+}
+
+nav ul li
+{
+list-style-type::none;
+float:left;
+display:block;
+width:150px;
+height:60px;
+text-align:center;
+line-height:55px;
+font-family:"Courier New", Courier, monospace;
+font-size:18px;
+}
+nav ul li a{
+	text-decoration::none;
+	color:#fff;
+}
+nav ul li:hover
+{
+	background-colour:rgb(242, 242, 242);
+}
+
+nav ul li:hover a{
+	display:block;
+	colour:#000;
+}
